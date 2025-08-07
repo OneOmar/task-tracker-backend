@@ -39,6 +39,10 @@ A simple Spring Boot REST API to manage task lists and tasks.
 - `PUT /task-lists/{taskListId}/tasks/{taskId}` — Update a task by ID within a task list  
 - `DELETE /task-lists/{taskListId}/tasks/{taskId}` — Delete a task by ID within a task list  
 
+## 📘 API Documentation
+
+See [API.md](./API.md) for full REST API details.
+
 ---
 
 ## ⚙️ Getting Started
