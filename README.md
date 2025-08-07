@@ -48,6 +48,7 @@ A simple Spring Boot REST API to manage task lists and tasks.
 ```bash
 git clone https://github.com/OneOmar/task-tracker-backend.git
 cd task-tracker-backend
+```
 
 ### 2. Configure the database
 
@@ -57,6 +58,7 @@ Edit the `src/main/resources/application.properties` file with your PostgreSQL c
 spring.datasource.url=jdbc:postgresql://localhost:5432/tasks_db
 spring.datasource.username=your_db_user
 spring.datasource.password=your_db_password
+```
 
 ### 3. Run the application
 
@@ -64,6 +66,7 @@ Run the following command:
 
 ```bash
 ./mvnw spring-boot:run
+```
 
 ## ✅ Todo
 
@@ -71,3 +74,5 @@ Run the following command:
 - [ ] Dockerize the application  
 - [ ] Implement authentication (JWT)
 
+
+📌 **Author: @OneOmar**
