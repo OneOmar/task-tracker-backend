@@ -2,6 +2,8 @@
 
 A simple Spring Boot REST API to manage task lists and tasks.
 
+---
+
 ## 🚀 Tech Stack
 
 - Java 21  
@@ -10,14 +12,18 @@ A simple Spring Boot REST API to manage task lists and tasks.
 - PostgreSQL  
 - Maven  
 
+---
+
 ## 📂 Features
 
-- CRUD operations for Task Lists  
-- CRUD operations for Tasks (nested under Task Lists)  
+- ✅ CRUD operations for Task Lists  
+- ✅ CRUD operations for Tasks (nested under Task Lists)  
+
+---
 
 ## 📄 API Endpoints
 
-### Task Lists
+### 🔹 Task Lists
 
 - `GET /task-lists` — Get all task lists  
 - `POST /task-lists` — Create a new task list  
@@ -25,13 +31,15 @@ A simple Spring Boot REST API to manage task lists and tasks.
 - `PUT /task-lists/{id}` — Update a task list by ID  
 - `DELETE /task-lists/{id}` — Delete a task list by ID  
 
-### Tasks
+### 🔸 Tasks
 
 - `GET /task-lists/{taskListId}/tasks` — Get all tasks in a task list  
 - `POST /task-lists/{taskListId}/tasks` — Create a new task in a task list  
 - `GET /task-lists/{taskListId}/tasks/{taskId}` — Get a specific task by ID within a task list  
 - `PUT /task-lists/{taskListId}/tasks/{taskId}` — Update a task by ID within a task list  
 - `DELETE /task-lists/{taskListId}/tasks/{taskId}` — Delete a task by ID within a task list  
+
+---
 
 ## ⚙️ Getting Started
 
@@ -50,16 +58,16 @@ spring.datasource.url=jdbc:postgresql://localhost:5432/tasks_db
 spring.datasource.username=your_db_user
 spring.datasource.password=your_db_password
 
-
 ### 3. Run the application
+
+Run the following command:
 
 ```bash
 ./mvnw spring-boot:run
 
+## ✅ Todo
 
-✅ Todo
-Add Swagger/OpenAPI documentation
-Dockerize the application
-Implement authentication (JWT)
+- [ ] Add Swagger/OpenAPI documentation  
+- [ ] Dockerize the application  
+- [ ] Implement authentication (JWT)
 
-📌 Author: @OneOmar
