@@ -1,5 +1,3 @@
-version: '3.8'
-
 services:
   db:
     image: postgres:latest
@@ -7,4 +5,4 @@ services:
       - "5432:5432"
     restart: always
     environment:
-      POSTGRES_PASSWORD: changemeinprod!  # ⚠ Replace with a secure method in production
+      POSTGRES_PASSWORD: changemeinprod!  # Replace with a secure method in production
